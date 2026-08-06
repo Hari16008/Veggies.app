@@ -68,7 +68,13 @@ st.markdown(
 st.title("🥬 Weekly Veggie Order Forecast")
 st.caption("Suggested order quantities based on last week's sales and current stock on hand.")
 
-DATA_DIR = "data"
+# Build paths relative to THIS FILE's location, not the process's current
+# working directory. Streamlit Cloud (and some other hosts) don't always
+# launch the app with the repo root as the cwd, so a plain relative path
+# like "data/item_master.csv" can fail with FileNotFoundError even when
+# the file is correctly committed to the repo.
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, "data")
 SAMPLE_HISTORY_CSV = os.path.join(DATA_DIR, "sample_sales_history.csv")
 UPLOADED_HISTORY_CSV = os.path.join(DATA_DIR, "uploaded_history.csv")
 ITEM_MASTER_CSV = os.path.join(DATA_DIR, "item_master.csv")
@@ -113,6 +119,15 @@ def _safe_mtime(path: str) -> float:
     except OSError:
         return 0.0
 
+
+if not os.path.exists(ITEM_MASTER_CSV):
+    st.error(
+        f"Couldn't find `data/item_master.csv` next to streamlit_app.py "
+        f"(looked in `{DATA_DIR}`). Make sure the `data/` folder with all "
+        f"4 CSVs was pushed to GitHub and sits in the same folder as "
+        f"streamlit_app.py, then reboot the app."
+    )
+    st.stop()
 
 item_master = _load_item_master_cached(_safe_mtime(ITEM_MASTER_CSV))
 
