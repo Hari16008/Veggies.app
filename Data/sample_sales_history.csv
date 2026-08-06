@@ -1,0 +1,1009 @@
+date,item,qty_sold
+2026-06-15,Bindi Okra,15.8
+2026-06-15,Green Chilli,8.1
+2026-06-15,Coriander,7.0
+2026-06-15,Mint,6.0
+2026-06-15,Lauki,5.8
+2026-06-15,Drum Sticks,5.4
+2026-06-15,Tindoora,8.2
+2026-06-15,Arbi,5.7
+2026-06-15,Small Onion,21.9
+2026-06-15,Amla,3.4
+2026-06-15,Brinjal Purple,10.4
+2026-06-15,Brinjal Green,9.1
+2026-06-15,Gwar,5.1
+2026-06-15,Karela,7.2
+2026-06-15,Paneer,7.6
+2026-06-15,Papdi,3.4
+2026-06-15,Methi Leaves,7.5
+2026-06-15,Toria,6.6
+2026-06-15,Parwal,6.9
+2026-06-15,Ashgourd,5.0
+2026-06-15,Vellarikai,6.8
+2026-06-15,Puja Coconut,10.5
+2026-06-15,Ginger,13.4
+2026-06-15,Garlic,17.5
+2026-06-15,Green Banana,12.0
+2026-06-15,Green Mango,4.7
+2026-06-15,Matoki,4.4
+2026-06-15,Pan Leaves,3.2
+2026-06-15,Suran,5.4
+2026-06-15,Long Beans,6.5
+2026-06-15,Guava,12.5
+2026-06-15,Chikoo,7.4
+2026-06-15,Custard Apple,2.7
+2026-06-15,Alphonso Mango,5.1
+2026-06-15,Kesar Mango,5.6
+2026-06-15,Banganpally Mango,7.2
+2026-06-16,Bindi Okra,14.7
+2026-06-16,Green Chilli,8.5
+2026-06-16,Coriander,5.0
+2026-06-16,Mint,6.0
+2026-06-16,Lauki,10.2
+2026-06-16,Drum Sticks,7.7
+2026-06-16,Tindoora,7.0
+2026-06-16,Arbi,6.3
+2026-06-16,Small Onion,22.5
+2026-06-16,Amla,4.2
+2026-06-16,Brinjal Purple,10.4
+2026-06-16,Brinjal Green,8.3
+2026-06-16,Gwar,5.6
+2026-06-16,Karela,6.1
+2026-06-16,Paneer,7.4
+2026-06-16,Papdi,4.5
+2026-06-16,Methi Leaves,5.2
+2026-06-16,Toria,7.5
+2026-06-16,Parwal,5.5
+2026-06-16,Ashgourd,4.4
+2026-06-16,Vellarikai,6.7
+2026-06-16,Puja Coconut,15.2
+2026-06-16,Ginger,9.3
+2026-06-16,Garlic,21.1
+2026-06-16,Green Banana,9.1
+2026-06-16,Green Mango,4.7
+2026-06-16,Matoki,4.1
+2026-06-16,Pan Leaves,3.3
+2026-06-16,Suran,5.6
+2026-06-16,Long Beans,6.9
+2026-06-16,Guava,8.4
+2026-06-16,Chikoo,7.3
+2026-06-16,Custard Apple,3.5
+2026-06-16,Alphonso Mango,5.8
+2026-06-16,Kesar Mango,3.9
+2026-06-16,Banganpally Mango,4.8
+2026-06-17,Bindi Okra,12.5
+2026-06-17,Green Chilli,10.9
+2026-06-17,Coriander,6.0
+2026-06-17,Mint,6.0
+2026-06-17,Lauki,8.3
+2026-06-17,Drum Sticks,7.2
+2026-06-17,Tindoora,8.9
+2026-06-17,Arbi,5.7
+2026-06-17,Small Onion,23.8
+2026-06-17,Amla,3.5
+2026-06-17,Brinjal Purple,8.4
+2026-06-17,Brinjal Green,7.5
+2026-06-17,Gwar,3.9
+2026-06-17,Karela,6.5
+2026-06-17,Paneer,6.4
+2026-06-17,Papdi,4.0
+2026-06-17,Methi Leaves,7.6
+2026-06-17,Toria,8.6
+2026-06-17,Parwal,6.7
+2026-06-17,Ashgourd,4.9
+2026-06-17,Vellarikai,6.5
+2026-06-17,Puja Coconut,11.8
+2026-06-17,Ginger,7.7
+2026-06-17,Garlic,13.3
+2026-06-17,Green Banana,9.9
+2026-06-17,Green Mango,4.1
+2026-06-17,Matoki,4.3
+2026-06-17,Pan Leaves,2.5
+2026-06-17,Suran,4.7
+2026-06-17,Long Beans,7.4
+2026-06-17,Guava,8.4
+2026-06-17,Chikoo,9.1
+2026-06-17,Custard Apple,2.5
+2026-06-17,Alphonso Mango,5.8
+2026-06-17,Kesar Mango,4.1
+2026-06-17,Banganpally Mango,5.6
+2026-06-18,Bindi Okra,17.3
+2026-06-18,Green Chilli,6.9
+2026-06-18,Coriander,7.0
+2026-06-18,Mint,5.0
+2026-06-18,Lauki,8.0
+2026-06-18,Drum Sticks,5.2
+2026-06-18,Tindoora,8.1
+2026-06-18,Arbi,5.4
+2026-06-18,Small Onion,22.9
+2026-06-18,Amla,4.0
+2026-06-18,Brinjal Purple,11.6
+2026-06-18,Brinjal Green,7.7
+2026-06-18,Gwar,4.1
+2026-06-18,Karela,6.2
+2026-06-18,Paneer,7.3
+2026-06-18,Papdi,5.0
+2026-06-18,Methi Leaves,8.1
+2026-06-18,Toria,8.5
+2026-06-18,Parwal,7.6
+2026-06-18,Ashgourd,3.9
+2026-06-18,Vellarikai,6.2
+2026-06-18,Puja Coconut,10.0
+2026-06-18,Ginger,10.2
+2026-06-18,Garlic,13.5
+2026-06-18,Green Banana,14.5
+2026-06-18,Green Mango,4.8
+2026-06-18,Matoki,2.9
+2026-06-18,Pan Leaves,2.5
+2026-06-18,Suran,5.3
+2026-06-18,Long Beans,6.9
+2026-06-18,Guava,12.2
+2026-06-18,Chikoo,12.2
+2026-06-18,Custard Apple,3.2
+2026-06-18,Alphonso Mango,4.9
+2026-06-18,Kesar Mango,3.1
+2026-06-18,Banganpally Mango,6.3
+2026-06-19,Bindi Okra,16.0
+2026-06-19,Green Chilli,11.6
+2026-06-19,Coriander,7.0
+2026-06-19,Mint,6.0
+2026-06-19,Lauki,13.4
+2026-06-19,Drum Sticks,9.0
+2026-06-19,Tindoora,9.7
+2026-06-19,Arbi,6.1
+2026-06-19,Small Onion,19.2
+2026-06-19,Amla,4.6
+2026-06-19,Brinjal Purple,11.1
+2026-06-19,Brinjal Green,13.2
+2026-06-19,Gwar,6.4
+2026-06-19,Karela,8.8
+2026-06-19,Paneer,8.0
+2026-06-19,Papdi,3.9
+2026-06-19,Methi Leaves,7.2
+2026-06-19,Toria,8.7
+2026-06-19,Parwal,10.4
+2026-06-19,Ashgourd,5.3
+2026-06-19,Vellarikai,10.1
+2026-06-19,Puja Coconut,12.6
+2026-06-19,Ginger,16.1
+2026-06-19,Garlic,24.1
+2026-06-19,Green Banana,15.8
+2026-06-19,Green Mango,6.2
+2026-06-19,Matoki,4.4
+2026-06-19,Pan Leaves,4.1
+2026-06-19,Suran,5.7
+2026-06-19,Long Beans,5.8
+2026-06-19,Guava,8.7
+2026-06-19,Chikoo,10.3
+2026-06-19,Custard Apple,4.8
+2026-06-19,Alphonso Mango,7.7
+2026-06-19,Kesar Mango,6.1
+2026-06-19,Banganpally Mango,7.9
+2026-06-20,Bindi Okra,23.2
+2026-06-20,Green Chilli,13.0
+2026-06-20,Coriander,7.0
+2026-06-20,Mint,8.0
+2026-06-20,Lauki,12.1
+2026-06-20,Drum Sticks,11.2
+2026-06-20,Tindoora,10.3
+2026-06-20,Arbi,5.8
+2026-06-20,Small Onion,20.7
+2026-06-20,Amla,6.5
+2026-06-20,Brinjal Purple,14.7
+2026-06-20,Brinjal Green,9.7
+2026-06-20,Gwar,5.8
+2026-06-20,Karela,9.5
+2026-06-20,Paneer,7.0
+2026-06-20,Papdi,4.2
+2026-06-20,Methi Leaves,9.8
+2026-06-20,Toria,9.3
+2026-06-20,Parwal,7.5
+2026-06-20,Ashgourd,6.1
+2026-06-20,Vellarikai,9.3
+2026-06-20,Puja Coconut,18.8
+2026-06-20,Ginger,14.0
+2026-06-20,Garlic,25.1
+2026-06-20,Green Banana,10.3
+2026-06-20,Green Mango,6.2
+2026-06-20,Matoki,4.2
+2026-06-20,Pan Leaves,2.9
+2026-06-20,Suran,5.3
+2026-06-20,Long Beans,7.0
+2026-06-20,Guava,13.1
+2026-06-20,Chikoo,7.6
+2026-06-20,Custard Apple,3.8
+2026-06-20,Alphonso Mango,6.8
+2026-06-20,Kesar Mango,5.9
+2026-06-20,Banganpally Mango,8.9
+2026-06-21,Bindi Okra,16.5
+2026-06-21,Green Chilli,12.4
+2026-06-21,Coriander,6.0
+2026-06-21,Mint,4.0
+2026-06-21,Lauki,8.6
+2026-06-21,Drum Sticks,7.3
+2026-06-21,Tindoora,8.3
+2026-06-21,Arbi,4.8
+2026-06-21,Small Onion,22.4
+2026-06-21,Amla,4.2
+2026-06-21,Brinjal Purple,13.1
+2026-06-21,Brinjal Green,10.7
+2026-06-21,Gwar,4.2
+2026-06-21,Karela,5.7
+2026-06-21,Paneer,5.2
+2026-06-21,Papdi,3.6
+2026-06-21,Methi Leaves,7.4
+2026-06-21,Toria,9.7
+2026-06-21,Parwal,5.2
+2026-06-21,Ashgourd,4.4
+2026-06-21,Vellarikai,4.3
+2026-06-21,Puja Coconut,11.6
+2026-06-21,Ginger,8.9
+2026-06-21,Garlic,16.3
+2026-06-21,Green Banana,10.9
+2026-06-21,Green Mango,4.9
+2026-06-21,Matoki,2.7
+2026-06-21,Pan Leaves,2.2
+2026-06-21,Suran,6.9
+2026-06-21,Long Beans,4.6
+2026-06-21,Guava,7.2
+2026-06-21,Chikoo,10.6
+2026-06-21,Custard Apple,4.6
+2026-06-21,Alphonso Mango,4.7
+2026-06-21,Kesar Mango,4.7
+2026-06-21,Banganpally Mango,6.4
+2026-06-22,Bindi Okra,19.7
+2026-06-22,Green Chilli,8.2
+2026-06-22,Coriander,6.0
+2026-06-22,Mint,6.0
+2026-06-22,Lauki,9.7
+2026-06-22,Drum Sticks,6.5
+2026-06-22,Tindoora,7.8
+2026-06-22,Arbi,4.5
+2026-06-22,Small Onion,21.1
+2026-06-22,Amla,3.8
+2026-06-22,Brinjal Purple,9.4
+2026-06-22,Brinjal Green,7.2
+2026-06-22,Gwar,5.4
+2026-06-22,Karela,7.1
+2026-06-22,Paneer,7.2
+2026-06-22,Papdi,4.3
+2026-06-22,Methi Leaves,7.1
+2026-06-22,Toria,8.0
+2026-06-22,Parwal,5.2
+2026-06-22,Ashgourd,5.3
+2026-06-22,Vellarikai,6.9
+2026-06-22,Puja Coconut,16.5
+2026-06-22,Ginger,14.1
+2026-06-22,Garlic,19.3
+2026-06-22,Green Banana,11.2
+2026-06-22,Green Mango,4.0
+2026-06-22,Matoki,4.9
+2026-06-22,Pan Leaves,3.1
+2026-06-22,Suran,5.4
+2026-06-22,Long Beans,4.1
+2026-06-22,Guava,10.5
+2026-06-22,Chikoo,8.7
+2026-06-22,Custard Apple,2.4
+2026-06-22,Alphonso Mango,5.5
+2026-06-22,Kesar Mango,5.2
+2026-06-22,Banganpally Mango,6.1
+2026-06-23,Bindi Okra,14.2
+2026-06-23,Green Chilli,9.8
+2026-06-23,Coriander,6.0
+2026-06-23,Mint,5.0
+2026-06-23,Lauki,11.4
+2026-06-23,Drum Sticks,3.8
+2026-06-23,Tindoora,7.7
+2026-06-23,Arbi,6.2
+2026-06-23,Small Onion,23.2
+2026-06-23,Amla,3.7
+2026-06-23,Brinjal Purple,6.2
+2026-06-23,Brinjal Green,8.5
+2026-06-23,Gwar,6.6
+2026-06-23,Karela,4.3
+2026-06-23,Paneer,8.1
+2026-06-23,Papdi,3.8
+2026-06-23,Methi Leaves,6.9
+2026-06-23,Toria,6.5
+2026-06-23,Parwal,5.6
+2026-06-23,Ashgourd,6.2
+2026-06-23,Vellarikai,7.7
+2026-06-23,Puja Coconut,15.7
+2026-06-23,Ginger,13.3
+2026-06-23,Garlic,19.4
+2026-06-23,Green Banana,17.1
+2026-06-23,Green Mango,5.4
+2026-06-23,Matoki,4.6
+2026-06-23,Pan Leaves,2.8
+2026-06-23,Suran,5.1
+2026-06-23,Long Beans,5.2
+2026-06-23,Guava,10.6
+2026-06-23,Chikoo,6.3
+2026-06-23,Custard Apple,3.4
+2026-06-23,Alphonso Mango,5.8
+2026-06-23,Kesar Mango,6.1
+2026-06-23,Banganpally Mango,6.8
+2026-06-24,Bindi Okra,19.9
+2026-06-24,Green Chilli,11.3
+2026-06-24,Coriander,4.0
+2026-06-24,Mint,5.0
+2026-06-24,Lauki,7.1
+2026-06-24,Drum Sticks,6.3
+2026-06-24,Tindoora,10.2
+2026-06-24,Arbi,6.7
+2026-06-24,Small Onion,19.2
+2026-06-24,Amla,3.3
+2026-06-24,Brinjal Purple,9.1
+2026-06-24,Brinjal Green,6.2
+2026-06-24,Gwar,4.4
+2026-06-24,Karela,6.3
+2026-06-24,Paneer,8.5
+2026-06-24,Papdi,4.4
+2026-06-24,Methi Leaves,4.1
+2026-06-24,Toria,8.4
+2026-06-24,Parwal,6.1
+2026-06-24,Ashgourd,5.4
+2026-06-24,Vellarikai,9.0
+2026-06-24,Puja Coconut,7.5
+2026-06-24,Ginger,9.8
+2026-06-24,Garlic,19.9
+2026-06-24,Green Banana,9.3
+2026-06-24,Green Mango,6.3
+2026-06-24,Matoki,4.3
+2026-06-24,Pan Leaves,3.5
+2026-06-24,Suran,4.5
+2026-06-24,Long Beans,6.9
+2026-06-24,Guava,10.7
+2026-06-24,Chikoo,8.3
+2026-06-24,Custard Apple,3.1
+2026-06-24,Alphonso Mango,6.3
+2026-06-24,Kesar Mango,4.2
+2026-06-24,Banganpally Mango,5.8
+2026-06-25,Bindi Okra,14.6
+2026-06-25,Green Chilli,10.7
+2026-06-25,Coriander,7.0
+2026-06-25,Mint,4.0
+2026-06-25,Lauki,8.8
+2026-06-25,Drum Sticks,8.9
+2026-06-25,Tindoora,6.9
+2026-06-25,Arbi,5.1
+2026-06-25,Small Onion,22.8
+2026-06-25,Amla,4.6
+2026-06-25,Brinjal Purple,9.0
+2026-06-25,Brinjal Green,9.9
+2026-06-25,Gwar,5.8
+2026-06-25,Karela,6.9
+2026-06-25,Paneer,7.7
+2026-06-25,Papdi,5.7
+2026-06-25,Methi Leaves,6.7
+2026-06-25,Toria,5.1
+2026-06-25,Parwal,7.7
+2026-06-25,Ashgourd,4.6
+2026-06-25,Vellarikai,7.1
+2026-06-25,Puja Coconut,14.8
+2026-06-25,Ginger,7.8
+2026-06-25,Garlic,13.9
+2026-06-25,Green Banana,9.3
+2026-06-25,Green Mango,4.3
+2026-06-25,Matoki,4.3
+2026-06-25,Pan Leaves,3.3
+2026-06-25,Suran,5.2
+2026-06-25,Long Beans,4.5
+2026-06-25,Guava,5.3
+2026-06-25,Chikoo,8.1
+2026-06-25,Custard Apple,2.7
+2026-06-25,Alphonso Mango,6.5
+2026-06-25,Kesar Mango,5.6
+2026-06-25,Banganpally Mango,6.1
+2026-06-26,Bindi Okra,21.3
+2026-06-26,Green Chilli,13.0
+2026-06-26,Coriander,8.0
+2026-06-26,Mint,5.0
+2026-06-26,Lauki,10.9
+2026-06-26,Drum Sticks,9.1
+2026-06-26,Tindoora,11.5
+2026-06-26,Arbi,7.0
+2026-06-26,Small Onion,30.1
+2026-06-26,Amla,4.8
+2026-06-26,Brinjal Purple,11.0
+2026-06-26,Brinjal Green,11.5
+2026-06-26,Gwar,4.0
+2026-06-26,Karela,5.7
+2026-06-26,Paneer,6.4
+2026-06-26,Papdi,2.9
+2026-06-26,Methi Leaves,7.7
+2026-06-26,Toria,11.3
+2026-06-26,Parwal,7.1
+2026-06-26,Ashgourd,6.5
+2026-06-26,Vellarikai,10.5
+2026-06-26,Puja Coconut,18.6
+2026-06-26,Ginger,13.6
+2026-06-26,Garlic,28.0
+2026-06-26,Green Banana,16.5
+2026-06-26,Green Mango,5.3
+2026-06-26,Matoki,4.5
+2026-06-26,Pan Leaves,2.8
+2026-06-26,Suran,5.3
+2026-06-26,Long Beans,7.0
+2026-06-26,Guava,12.9
+2026-06-26,Chikoo,13.1
+2026-06-26,Custard Apple,2.8
+2026-06-26,Alphonso Mango,8.0
+2026-06-26,Kesar Mango,5.1
+2026-06-26,Banganpally Mango,8.1
+2026-06-27,Bindi Okra,18.3
+2026-06-27,Green Chilli,8.4
+2026-06-27,Coriander,9.0
+2026-06-27,Mint,5.0
+2026-06-27,Lauki,10.2
+2026-06-27,Drum Sticks,7.1
+2026-06-27,Tindoora,8.8
+2026-06-27,Arbi,8.1
+2026-06-27,Small Onion,26.6
+2026-06-27,Amla,5.3
+2026-06-27,Brinjal Purple,12.0
+2026-06-27,Brinjal Green,12.4
+2026-06-27,Gwar,5.9
+2026-06-27,Karela,5.5
+2026-06-27,Paneer,10.4
+2026-06-27,Papdi,4.7
+2026-06-27,Methi Leaves,10.5
+2026-06-27,Toria,10.7
+2026-06-27,Parwal,7.3
+2026-06-27,Ashgourd,6.6
+2026-06-27,Vellarikai,11.8
+2026-06-27,Puja Coconut,20.6
+2026-06-27,Ginger,13.9
+2026-06-27,Garlic,23.1
+2026-06-27,Green Banana,19.4
+2026-06-27,Green Mango,5.3
+2026-06-27,Matoki,5.3
+2026-06-27,Pan Leaves,3.7
+2026-06-27,Suran,6.6
+2026-06-27,Long Beans,6.4
+2026-06-27,Guava,8.0
+2026-06-27,Chikoo,6.3
+2026-06-27,Custard Apple,3.0
+2026-06-27,Alphonso Mango,6.9
+2026-06-27,Kesar Mango,5.9
+2026-06-27,Banganpally Mango,10.1
+2026-06-28,Bindi Okra,18.0
+2026-06-28,Green Chilli,8.3
+2026-06-28,Coriander,6.0
+2026-06-28,Mint,5.0
+2026-06-28,Lauki,8.5
+2026-06-28,Drum Sticks,7.2
+2026-06-28,Tindoora,8.9
+2026-06-28,Arbi,5.6
+2026-06-28,Small Onion,26.2
+2026-06-28,Amla,3.2
+2026-06-28,Brinjal Purple,9.0
+2026-06-28,Brinjal Green,11.7
+2026-06-28,Gwar,5.2
+2026-06-28,Karela,7.5
+2026-06-28,Paneer,7.1
+2026-06-28,Papdi,4.4
+2026-06-28,Methi Leaves,6.9
+2026-06-28,Toria,7.8
+2026-06-28,Parwal,5.2
+2026-06-28,Ashgourd,5.4
+2026-06-28,Vellarikai,5.9
+2026-06-28,Puja Coconut,13.4
+2026-06-28,Ginger,13.1
+2026-06-28,Garlic,19.2
+2026-06-28,Green Banana,12.3
+2026-06-28,Green Mango,5.4
+2026-06-28,Matoki,3.8
+2026-06-28,Pan Leaves,3.5
+2026-06-28,Suran,3.4
+2026-06-28,Long Beans,5.6
+2026-06-28,Guava,5.8
+2026-06-28,Chikoo,5.8
+2026-06-28,Custard Apple,3.7
+2026-06-28,Alphonso Mango,7.0
+2026-06-28,Kesar Mango,4.4
+2026-06-28,Banganpally Mango,4.4
+2026-06-29,Bindi Okra,7.0
+2026-06-29,Green Chilli,9.0
+2026-06-29,Coriander,9.0
+2026-06-29,Mint,5.0
+2026-06-29,Lauki,8.1
+2026-06-29,Drum Sticks,7.6
+2026-06-29,Tindoora,5.8
+2026-06-29,Arbi,5.7
+2026-06-29,Small Onion,22.4
+2026-06-29,Amla,3.9
+2026-06-29,Brinjal Purple,10.3
+2026-06-29,Brinjal Green,8.5
+2026-06-29,Gwar,5.6
+2026-06-29,Karela,5.3
+2026-06-29,Paneer,8.1
+2026-06-29,Papdi,5.2
+2026-06-29,Methi Leaves,5.8
+2026-06-29,Toria,6.7
+2026-06-29,Parwal,7.4
+2026-06-29,Ashgourd,4.8
+2026-06-29,Vellarikai,8.8
+2026-06-29,Puja Coconut,11.0
+2026-06-29,Ginger,13.9
+2026-06-29,Garlic,18.4
+2026-06-29,Green Banana,13.6
+2026-06-29,Green Mango,6.4
+2026-06-29,Matoki,3.7
+2026-06-29,Pan Leaves,2.5
+2026-06-29,Suran,4.6
+2026-06-29,Long Beans,6.5
+2026-06-29,Guava,6.5
+2026-06-29,Chikoo,8.9
+2026-06-29,Custard Apple,2.7
+2026-06-29,Alphonso Mango,7.2
+2026-06-29,Kesar Mango,2.8
+2026-06-29,Banganpally Mango,5.2
+2026-06-30,Bindi Okra,10.4
+2026-06-30,Green Chilli,8.5
+2026-06-30,Coriander,6.0
+2026-06-30,Mint,5.0
+2026-06-30,Lauki,8.6
+2026-06-30,Drum Sticks,6.8
+2026-06-30,Tindoora,8.3
+2026-06-30,Arbi,4.9
+2026-06-30,Small Onion,24.8
+2026-06-30,Amla,4.5
+2026-06-30,Brinjal Purple,9.6
+2026-06-30,Brinjal Green,8.8
+2026-06-30,Gwar,5.3
+2026-06-30,Karela,8.2
+2026-06-30,Paneer,6.9
+2026-06-30,Papdi,3.8
+2026-06-30,Methi Leaves,6.1
+2026-06-30,Toria,6.5
+2026-06-30,Parwal,4.7
+2026-06-30,Ashgourd,4.2
+2026-06-30,Vellarikai,6.9
+2026-06-30,Puja Coconut,12.7
+2026-06-30,Ginger,11.1
+2026-06-30,Garlic,15.5
+2026-06-30,Green Banana,15.1
+2026-06-30,Green Mango,5.7
+2026-06-30,Matoki,3.9
+2026-06-30,Pan Leaves,2.6
+2026-06-30,Suran,5.5
+2026-06-30,Long Beans,6.2
+2026-06-30,Guava,6.7
+2026-06-30,Chikoo,7.9
+2026-06-30,Custard Apple,3.1
+2026-06-30,Alphonso Mango,5.0
+2026-06-30,Kesar Mango,5.2
+2026-06-30,Banganpally Mango,4.4
+2026-07-01,Bindi Okra,18.6
+2026-07-01,Green Chilli,12.2
+2026-07-01,Coriander,6.0
+2026-07-01,Mint,5.0
+2026-07-01,Lauki,5.1
+2026-07-01,Drum Sticks,5.5
+2026-07-01,Tindoora,7.6
+2026-07-01,Arbi,4.8
+2026-07-01,Small Onion,24.8
+2026-07-01,Amla,5.4
+2026-07-01,Brinjal Purple,7.1
+2026-07-01,Brinjal Green,6.8
+2026-07-01,Gwar,5.2
+2026-07-01,Karela,7.7
+2026-07-01,Paneer,5.5
+2026-07-01,Papdi,4.2
+2026-07-01,Methi Leaves,9.3
+2026-07-01,Toria,5.6
+2026-07-01,Parwal,4.6
+2026-07-01,Ashgourd,4.6
+2026-07-01,Vellarikai,6.3
+2026-07-01,Puja Coconut,13.8
+2026-07-01,Ginger,11.5
+2026-07-01,Garlic,12.2
+2026-07-01,Green Banana,14.2
+2026-07-01,Green Mango,4.5
+2026-07-01,Matoki,4.9
+2026-07-01,Pan Leaves,2.7
+2026-07-01,Suran,4.4
+2026-07-01,Long Beans,6.6
+2026-07-01,Guava,10.2
+2026-07-01,Chikoo,8.6
+2026-07-01,Custard Apple,2.1
+2026-07-01,Alphonso Mango,6.6
+2026-07-01,Kesar Mango,4.1
+2026-07-01,Banganpally Mango,6.3
+2026-07-02,Bindi Okra,11.2
+2026-07-02,Green Chilli,10.8
+2026-07-02,Coriander,5.0
+2026-07-02,Mint,4.0
+2026-07-02,Lauki,10.2
+2026-07-02,Drum Sticks,7.3
+2026-07-02,Tindoora,7.1
+2026-07-02,Arbi,7.6
+2026-07-02,Small Onion,20.3
+2026-07-02,Amla,4.0
+2026-07-02,Brinjal Purple,9.4
+2026-07-02,Brinjal Green,7.1
+2026-07-02,Gwar,5.4
+2026-07-02,Karela,5.4
+2026-07-02,Paneer,6.5
+2026-07-02,Papdi,5.0
+2026-07-02,Methi Leaves,5.7
+2026-07-02,Toria,4.5
+2026-07-02,Parwal,7.7
+2026-07-02,Ashgourd,7.3
+2026-07-02,Vellarikai,6.5
+2026-07-02,Puja Coconut,7.8
+2026-07-02,Ginger,10.4
+2026-07-02,Garlic,17.1
+2026-07-02,Green Banana,12.6
+2026-07-02,Green Mango,4.0
+2026-07-02,Matoki,4.4
+2026-07-02,Pan Leaves,3.3
+2026-07-02,Suran,3.7
+2026-07-02,Long Beans,6.8
+2026-07-02,Guava,12.3
+2026-07-02,Chikoo,8.2
+2026-07-02,Custard Apple,2.8
+2026-07-02,Alphonso Mango,5.8
+2026-07-02,Kesar Mango,5.6
+2026-07-02,Banganpally Mango,4.1
+2026-07-03,Bindi Okra,19.3
+2026-07-03,Green Chilli,11.6
+2026-07-03,Coriander,10.0
+2026-07-03,Mint,6.0
+2026-07-03,Lauki,14.6
+2026-07-03,Drum Sticks,7.0
+2026-07-03,Tindoora,11.1
+2026-07-03,Arbi,7.9
+2026-07-03,Small Onion,23.2
+2026-07-03,Amla,5.2
+2026-07-03,Brinjal Purple,13.7
+2026-07-03,Brinjal Green,9.4
+2026-07-03,Gwar,4.3
+2026-07-03,Karela,7.5
+2026-07-03,Paneer,7.3
+2026-07-03,Papdi,4.7
+2026-07-03,Methi Leaves,8.6
+2026-07-03,Toria,6.9
+2026-07-03,Parwal,5.3
+2026-07-03,Ashgourd,6.8
+2026-07-03,Vellarikai,7.9
+2026-07-03,Puja Coconut,8.1
+2026-07-03,Ginger,15.7
+2026-07-03,Garlic,23.6
+2026-07-03,Green Banana,14.2
+2026-07-03,Green Mango,4.8
+2026-07-03,Matoki,5.8
+2026-07-03,Pan Leaves,4.0
+2026-07-03,Suran,8.9
+2026-07-03,Long Beans,8.1
+2026-07-03,Guava,12.0
+2026-07-03,Chikoo,9.7
+2026-07-03,Custard Apple,4.3
+2026-07-03,Alphonso Mango,8.3
+2026-07-03,Kesar Mango,7.7
+2026-07-03,Banganpally Mango,6.8
+2026-07-04,Bindi Okra,17.3
+2026-07-04,Green Chilli,11.4
+2026-07-04,Coriander,9.0
+2026-07-04,Mint,8.0
+2026-07-04,Lauki,10.3
+2026-07-04,Drum Sticks,8.1
+2026-07-04,Tindoora,10.6
+2026-07-04,Arbi,7.2
+2026-07-04,Small Onion,32.2
+2026-07-04,Amla,3.0
+2026-07-04,Brinjal Purple,9.6
+2026-07-04,Brinjal Green,8.6
+2026-07-04,Gwar,3.6
+2026-07-04,Karela,6.2
+2026-07-04,Paneer,7.3
+2026-07-04,Papdi,4.8
+2026-07-04,Methi Leaves,10.5
+2026-07-04,Toria,9.6
+2026-07-04,Parwal,6.1
+2026-07-04,Ashgourd,6.2
+2026-07-04,Vellarikai,10.4
+2026-07-04,Puja Coconut,12.4
+2026-07-04,Ginger,11.5
+2026-07-04,Garlic,24.8
+2026-07-04,Green Banana,15.6
+2026-07-04,Green Mango,7.0
+2026-07-04,Matoki,5.0
+2026-07-04,Pan Leaves,4.2
+2026-07-04,Suran,5.1
+2026-07-04,Long Beans,7.5
+2026-07-04,Guava,10.8
+2026-07-04,Chikoo,7.8
+2026-07-04,Custard Apple,2.7
+2026-07-04,Alphonso Mango,8.4
+2026-07-04,Kesar Mango,5.9
+2026-07-04,Banganpally Mango,6.1
+2026-07-05,Bindi Okra,14.7
+2026-07-05,Green Chilli,12.0
+2026-07-05,Coriander,3.0
+2026-07-05,Mint,4.0
+2026-07-05,Lauki,7.5
+2026-07-05,Drum Sticks,8.8
+2026-07-05,Tindoora,8.4
+2026-07-05,Arbi,6.8
+2026-07-05,Small Onion,17.5
+2026-07-05,Amla,3.2
+2026-07-05,Brinjal Purple,9.7
+2026-07-05,Brinjal Green,8.1
+2026-07-05,Gwar,5.5
+2026-07-05,Karela,5.8
+2026-07-05,Paneer,7.4
+2026-07-05,Papdi,4.1
+2026-07-05,Methi Leaves,8.0
+2026-07-05,Toria,9.2
+2026-07-05,Parwal,4.3
+2026-07-05,Ashgourd,3.0
+2026-07-05,Vellarikai,8.3
+2026-07-05,Puja Coconut,14.6
+2026-07-05,Ginger,9.0
+2026-07-05,Garlic,12.0
+2026-07-05,Green Banana,13.2
+2026-07-05,Green Mango,5.8
+2026-07-05,Matoki,5.3
+2026-07-05,Pan Leaves,3.3
+2026-07-05,Suran,4.7
+2026-07-05,Long Beans,5.0
+2026-07-05,Guava,9.0
+2026-07-05,Chikoo,7.6
+2026-07-05,Custard Apple,2.5
+2026-07-05,Alphonso Mango,8.2
+2026-07-05,Kesar Mango,6.6
+2026-07-05,Banganpally Mango,7.2
+2026-07-06,Bindi Okra,12.5
+2026-07-06,Green Chilli,11.5
+2026-07-06,Coriander,7.0
+2026-07-06,Mint,5.0
+2026-07-06,Lauki,11.0
+2026-07-06,Drum Sticks,7.8
+2026-07-06,Tindoora,9.1
+2026-07-06,Arbi,6.7
+2026-07-06,Small Onion,23.3
+2026-07-06,Amla,2.7
+2026-07-06,Brinjal Purple,9.1
+2026-07-06,Brinjal Green,7.2
+2026-07-06,Gwar,3.8
+2026-07-06,Karela,7.8
+2026-07-06,Paneer,9.2
+2026-07-06,Papdi,5.0
+2026-07-06,Methi Leaves,7.3
+2026-07-06,Toria,9.9
+2026-07-06,Parwal,6.0
+2026-07-06,Ashgourd,5.2
+2026-07-06,Vellarikai,5.6
+2026-07-06,Puja Coconut,12.9
+2026-07-06,Ginger,11.1
+2026-07-06,Garlic,13.8
+2026-07-06,Green Banana,12.9
+2026-07-06,Green Mango,4.9
+2026-07-06,Matoki,5.3
+2026-07-06,Pan Leaves,3.5
+2026-07-06,Suran,5.0
+2026-07-06,Long Beans,6.3
+2026-07-06,Guava,9.1
+2026-07-06,Chikoo,7.7
+2026-07-06,Custard Apple,2.4
+2026-07-06,Alphonso Mango,5.8
+2026-07-06,Kesar Mango,4.3
+2026-07-06,Banganpally Mango,4.6
+2026-07-07,Bindi Okra,16.4
+2026-07-07,Green Chilli,10.7
+2026-07-07,Coriander,4.0
+2026-07-07,Mint,5.0
+2026-07-07,Lauki,10.6
+2026-07-07,Drum Sticks,8.3
+2026-07-07,Tindoora,9.5
+2026-07-07,Arbi,6.0
+2026-07-07,Small Onion,18.7
+2026-07-07,Amla,3.2
+2026-07-07,Brinjal Purple,9.6
+2026-07-07,Brinjal Green,8.5
+2026-07-07,Gwar,6.2
+2026-07-07,Karela,7.2
+2026-07-07,Paneer,6.8
+2026-07-07,Papdi,3.1
+2026-07-07,Methi Leaves,6.6
+2026-07-07,Toria,8.3
+2026-07-07,Parwal,5.8
+2026-07-07,Ashgourd,4.5
+2026-07-07,Vellarikai,7.3
+2026-07-07,Puja Coconut,10.9
+2026-07-07,Ginger,9.8
+2026-07-07,Garlic,19.0
+2026-07-07,Green Banana,12.1
+2026-07-07,Green Mango,5.2
+2026-07-07,Matoki,4.2
+2026-07-07,Pan Leaves,2.4
+2026-07-07,Suran,4.6
+2026-07-07,Long Beans,7.6
+2026-07-07,Guava,7.1
+2026-07-07,Chikoo,5.0
+2026-07-07,Custard Apple,2.0
+2026-07-07,Alphonso Mango,6.0
+2026-07-07,Kesar Mango,5.0
+2026-07-07,Banganpally Mango,5.9
+2026-07-08,Bindi Okra,18.3
+2026-07-08,Green Chilli,5.2
+2026-07-08,Coriander,6.0
+2026-07-08,Mint,7.0
+2026-07-08,Lauki,7.2
+2026-07-08,Drum Sticks,6.5
+2026-07-08,Tindoora,6.9
+2026-07-08,Arbi,5.0
+2026-07-08,Small Onion,20.7
+2026-07-08,Amla,5.0
+2026-07-08,Brinjal Purple,12.0
+2026-07-08,Brinjal Green,7.5
+2026-07-08,Gwar,6.7
+2026-07-08,Karela,6.0
+2026-07-08,Paneer,9.2
+2026-07-08,Papdi,3.9
+2026-07-08,Methi Leaves,7.2
+2026-07-08,Toria,8.5
+2026-07-08,Parwal,9.4
+2026-07-08,Ashgourd,5.8
+2026-07-08,Vellarikai,6.1
+2026-07-08,Puja Coconut,14.1
+2026-07-08,Ginger,10.3
+2026-07-08,Garlic,16.4
+2026-07-08,Green Banana,15.1
+2026-07-08,Green Mango,5.0
+2026-07-08,Matoki,4.2
+2026-07-08,Pan Leaves,3.0
+2026-07-08,Suran,5.3
+2026-07-08,Long Beans,6.5
+2026-07-08,Guava,5.9
+2026-07-08,Chikoo,9.0
+2026-07-08,Custard Apple,2.5
+2026-07-08,Alphonso Mango,4.4
+2026-07-08,Kesar Mango,4.9
+2026-07-08,Banganpally Mango,6.1
+2026-07-09,Bindi Okra,13.1
+2026-07-09,Green Chilli,11.5
+2026-07-09,Coriander,4.0
+2026-07-09,Mint,5.0
+2026-07-09,Lauki,8.1
+2026-07-09,Drum Sticks,6.9
+2026-07-09,Tindoora,8.4
+2026-07-09,Arbi,4.9
+2026-07-09,Small Onion,24.9
+2026-07-09,Amla,4.0
+2026-07-09,Brinjal Purple,5.9
+2026-07-09,Brinjal Green,5.2
+2026-07-09,Gwar,5.0
+2026-07-09,Karela,5.8
+2026-07-09,Paneer,6.9
+2026-07-09,Papdi,4.0
+2026-07-09,Methi Leaves,7.3
+2026-07-09,Toria,9.4
+2026-07-09,Parwal,4.8
+2026-07-09,Ashgourd,3.9
+2026-07-09,Vellarikai,5.6
+2026-07-09,Puja Coconut,12.6
+2026-07-09,Ginger,13.5
+2026-07-09,Garlic,16.6
+2026-07-09,Green Banana,7.1
+2026-07-09,Green Mango,3.5
+2026-07-09,Matoki,3.4
+2026-07-09,Pan Leaves,2.7
+2026-07-09,Suran,4.6
+2026-07-09,Long Beans,6.0
+2026-07-09,Guava,8.5
+2026-07-09,Chikoo,9.5
+2026-07-09,Custard Apple,2.6
+2026-07-09,Alphonso Mango,5.1
+2026-07-09,Kesar Mango,5.4
+2026-07-09,Banganpally Mango,4.3
+2026-07-10,Bindi Okra,20.1
+2026-07-10,Green Chilli,12.7
+2026-07-10,Coriander,7.0
+2026-07-10,Mint,8.0
+2026-07-10,Lauki,10.0
+2026-07-10,Drum Sticks,12.0
+2026-07-10,Tindoora,9.6
+2026-07-10,Arbi,5.8
+2026-07-10,Small Onion,27.8
+2026-07-10,Amla,4.0
+2026-07-10,Brinjal Purple,9.7
+2026-07-10,Brinjal Green,10.7
+2026-07-10,Gwar,6.9
+2026-07-10,Karela,6.7
+2026-07-10,Paneer,10.3
+2026-07-10,Papdi,6.0
+2026-07-10,Methi Leaves,11.0
+2026-07-10,Toria,11.0
+2026-07-10,Parwal,9.3
+2026-07-10,Ashgourd,4.1
+2026-07-10,Vellarikai,8.2
+2026-07-10,Puja Coconut,12.7
+2026-07-10,Ginger,14.0
+2026-07-10,Garlic,20.2
+2026-07-10,Green Banana,15.8
+2026-07-10,Green Mango,8.4
+2026-07-10,Matoki,4.8
+2026-07-10,Pan Leaves,4.0
+2026-07-10,Suran,6.0
+2026-07-10,Long Beans,7.6
+2026-07-10,Guava,11.3
+2026-07-10,Chikoo,10.8
+2026-07-10,Custard Apple,4.5
+2026-07-10,Alphonso Mango,9.7
+2026-07-10,Kesar Mango,6.6
+2026-07-10,Banganpally Mango,8.3
+2026-07-11,Bindi Okra,14.9
+2026-07-11,Green Chilli,12.3
+2026-07-11,Coriander,9.0
+2026-07-11,Mint,7.0
+2026-07-11,Lauki,11.7
+2026-07-11,Drum Sticks,10.1
+2026-07-11,Tindoora,10.9
+2026-07-11,Arbi,9.1
+2026-07-11,Small Onion,28.9
+2026-07-11,Amla,4.7
+2026-07-11,Brinjal Purple,11.9
+2026-07-11,Brinjal Green,4.7
+2026-07-11,Gwar,6.7
+2026-07-11,Karela,2.6
+2026-07-11,Paneer,6.0
+2026-07-11,Papdi,5.4
+2026-07-11,Methi Leaves,9.5
+2026-07-11,Toria,7.9
+2026-07-11,Parwal,6.5
+2026-07-11,Ashgourd,7.8
+2026-07-11,Vellarikai,8.0
+2026-07-11,Puja Coconut,21.1
+2026-07-11,Ginger,13.7
+2026-07-11,Garlic,24.2
+2026-07-11,Green Banana,21.0
+2026-07-11,Green Mango,6.4
+2026-07-11,Matoki,4.1
+2026-07-11,Pan Leaves,3.7
+2026-07-11,Suran,6.2
+2026-07-11,Long Beans,5.7
+2026-07-11,Guava,10.7
+2026-07-11,Chikoo,8.7
+2026-07-11,Custard Apple,4.4
+2026-07-11,Alphonso Mango,7.5
+2026-07-11,Kesar Mango,5.9
+2026-07-11,Banganpally Mango,7.4
+2026-07-12,Bindi Okra,15.6
+2026-07-12,Green Chilli,11.1
+2026-07-12,Coriander,5.0
+2026-07-12,Mint,4.0
+2026-07-12,Lauki,10.8
+2026-07-12,Drum Sticks,6.5
+2026-07-12,Tindoora,6.0
+2026-07-12,Arbi,6.5
+2026-07-12,Small Onion,23.8
+2026-07-12,Amla,2.9
+2026-07-12,Brinjal Purple,9.4
+2026-07-12,Brinjal Green,9.1
+2026-07-12,Gwar,5.3
+2026-07-12,Karela,6.7
+2026-07-12,Paneer,5.2
+2026-07-12,Papdi,4.2
+2026-07-12,Methi Leaves,6.6
+2026-07-12,Toria,7.3
+2026-07-12,Parwal,6.9
+2026-07-12,Ashgourd,6.3
+2026-07-12,Vellarikai,9.3
+2026-07-12,Puja Coconut,14.8
+2026-07-12,Ginger,10.8
+2026-07-12,Garlic,19.1
+2026-07-12,Green Banana,14.8
+2026-07-12,Green Mango,5.1
+2026-07-12,Matoki,4.1
+2026-07-12,Pan Leaves,3.4
+2026-07-12,Suran,4.9
+2026-07-12,Long Beans,5.2
+2026-07-12,Guava,8.3
+2026-07-12,Chikoo,8.9
+2026-07-12,Custard Apple,3.0
+2026-07-12,Alphonso Mango,6.4
+2026-07-12,Kesar Mango,5.6
+2026-07-12,Banganpally Mango,5.6

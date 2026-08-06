@@ -1,0 +1,37 @@
+item,category,unit,shelf_life_days,safety_buffer_pct
+Bindi Okra,basic,kg,3,20
+Green Chilli,basic,kg,7,15
+Coriander,basic,box,3,25
+Mint,basic,box,3,25
+Lauki,basic,kg,5,15
+Drum Sticks,basic,kg,4,20
+Tindoora,basic,kg,5,15
+Arbi,basic,kg,10,10
+Small Onion,basic,kg,20,10
+Amla,basic,kg,10,10
+Brinjal Purple,basic,kg,5,15
+Brinjal Green,basic,kg,5,15
+Gwar,basic,kg,4,20
+Karela,basic,kg,5,15
+Paneer,basic,kg,5,10
+Papdi,basic,kg,4,20
+Methi Leaves,other,kg,3,25
+Toria,other,kg,4,15
+Parwal,other,kg,5,15
+Ashgourd,other,kg,15,10
+Vellarikai,other,kg,5,15
+Puja Coconut,other,kg,20,10
+Ginger,other,kg,21,10
+Garlic,other,kg,30,10
+Green Banana,other,kg,7,10
+Green Mango,other,kg,7,10
+Matoki,other,kg,7,10
+Pan Leaves,other,kg,5,20
+Suran,other,kg,10,10
+Long Beans,other,kg,5,15
+Guava,fruit,kg,5,15
+Chikoo,fruit,kg,5,15
+Custard Apple,fruit,kg,3,20
+Alphonso Mango,fruit,kg,5,15
+Kesar Mango,fruit,kg,5,15
+Banganpally Mango,fruit,kg,5,15
