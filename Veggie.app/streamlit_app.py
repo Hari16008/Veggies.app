@@ -80,6 +80,7 @@ UPLOADED_HISTORY_CSV = os.path.join(DATA_DIR, "uploaded_history.csv")
 ITEM_MASTER_CSV = os.path.join(DATA_DIR, "item_master.csv")
 RECEIVING_LOG_CSV = os.path.join(DATA_DIR, "receiving_log.csv")
 WASTAGE_LOG_CSV = os.path.join(DATA_DIR, "wastage_log.csv")
+SALES_LOG_CSV = os.path.join(DATA_DIR, "sales_log.csv")
 
 
 # ---------------------------------------------------------------------
@@ -108,6 +109,7 @@ def _forecast_order_fresh(
         current_stock=current_stock,
         receiving_csv=RECEIVING_LOG_CSV,
         wastage_csv=WASTAGE_LOG_CSV,
+        sales_log_csv=SALES_LOG_CSV,
         apply_safety_buffer=apply_buffer,
         item_master=item_master,
     )
@@ -188,8 +190,8 @@ if not os.path.exists(history_csv):
 # ---------------------------------------------------------------------
 # Tabs: Receiving & Wastage logging, then the Order recommendation
 # ---------------------------------------------------------------------
-tab_order, tab_receive, tab_waste, tab_history = st.tabs(
-    ["📋 Suggested Order", "📥 Log Receiving", "🗑️ Log Wastage", "📈 Sales History"]
+tab_order, tab_receive, tab_waste, tab_sales, tab_history = st.tabs(
+    ["📋 Suggested Order", "📥 Log Receiving", "🗑️ Log Wastage", "🧾 Log Sales", "📈 Sales History"]
 )
 
 # ---- Log Receiving ----
@@ -245,6 +247,37 @@ with tab_waste:
 
     with st.expander("View wastage log"):
         st.dataframe(read_log(WASTAGE_LOG_CSV, "wastage_qty"), hide_index=True, use_container_width=True)
+
+# ---- Log Sales ----
+with tab_sales:
+    st.subheader("Log today's sales")
+    st.caption(
+        "Enter quantity sold by weight (kg), or box count for Coriander/Mint. "
+        "This builds up the sales history the forecast needs - if you don't have "
+        "a POS export, log sales here each day instead. Leave items at 0 to skip them."
+    )
+    sales_scope = st.radio("Items to log", ["Today's order items only", "All items"], key="sales_scope", horizontal=True)
+    sales_items = scope_items if sales_scope == "Today's order items only" else ITEMS
+    sales_date = st.date_input("Date sold", value=date.today(), key="sales_date")
+
+    sales_df = pd.DataFrame({
+        "item": list(sales_items.keys()),
+        "unit": [sales_items[i]["unit"] for i in sales_items],
+        "qty_sold": [0.0] * len(sales_items),
+    })
+    sales_edited = st.data_editor(sales_df, hide_index=True, use_container_width=True, disabled=["item", "unit"], key="sales_editor")
+
+    if st.button("Save sales log", type="primary"):
+        entries = dict(zip(sales_edited["item"], sales_edited["qty_sold"]))
+        n = append_entries(SALES_LOG_CSV, "qty_sold", sales_date, entries)
+        if n:
+            st.success(f"Logged sales for {n} item(s) on {sales_date.isoformat()}.")
+            st.rerun()
+        else:
+            st.warning("Nothing entered above 0 - nothing was logged.")
+
+    with st.expander("View logged sales"):
+        st.dataframe(read_log(SALES_LOG_CSV, "qty_sold"), hide_index=True, use_container_width=True)
 
 # ---- Suggested Order ----
 with tab_order:
@@ -321,8 +354,16 @@ with tab_order:
 # ---- Historical view ----
 with tab_history:
     st.subheader("Raw sales history")
+    st.caption(f"From {data_source.lower()}.")
     try:
         hist = _load_history_cached(history_csv, _safe_mtime(history_csv))
-        st.dataframe(hist.sort_values("date", ascending=False), use_container_width=True, height=400)
+        st.dataframe(hist.sort_values("date", ascending=False), use_container_width=True, height=300)
     except Exception as e:  # noqa: BLE001
         st.write(f"Couldn't load history: {e}")
+
+    st.subheader("Sales logged in-app")
+    st.caption("Entered via the 🧾 Log Sales tab - this is combined with the history above when forecasting.")
+    st.dataframe(
+        read_log(SALES_LOG_CSV, "qty_sold").sort_values("date", ascending=False),
+        hide_index=True, use_container_width=True, height=300,
+    )
