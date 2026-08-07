@@ -145,6 +145,7 @@ def forecast_order(
     current_stock: dict[str, float] | None = None,
     receiving_csv: str | None = None,
     wastage_csv: str | None = None,
+    sales_log_csv: str | None = None,
     as_of_date=None,
     apply_safety_buffer: bool = False,
     item_master: pd.DataFrame | None = None,
@@ -157,28 +158,38 @@ def forecast_order(
         auto-computed current_stock from the receiving/wastage logs -
         useful for shops that haven't started logging yet, or want to
         do a quick manual count.
+    sales_log_csv: optional path to sales entered day-to-day inside the
+        app (see the "Log Sales" tab). Combined with history_csv so a
+        store with no external POS export can still build up history.
     apply_safety_buffer: if True, multiplies the final order qty by
         (1 + safety_buffer_pct/100) from item_master, if provided. Off
         by default, since the manager's formula (prev week sales -
         current stock) doesn't call for one.
     """
-    sales = load_history(history_csv)
-    if sales.empty:
+    base_sales = load_history(history_csv)
+    logged_sales = load_log(sales_log_csv, "qty_sold")
+    sales = pd.concat([base_sales, logged_sales], ignore_index=True) if not logged_sales.empty else base_sales
+
+    items = items_for_order_day(order_day)
+    if not items:
         return pd.DataFrame()
 
+    # NOTE: we deliberately do NOT bail out here just because `sales` is
+    # empty. A brand-new store legitimately starts with zero sales
+    # history - it still needs the editable order sheet (with 0's for
+    # "Last Week's Sales" until enough days have been logged) rather
+    # than a blank screen and no download button.
     if as_of_date is not None:
         as_of_date = pd.Timestamp(as_of_date)
-    else:
+    elif not sales.empty:
         # Use the most recent date in the sales history that actually
         # falls on order_day's weekday, so "previous week" comparisons
         # line up correctly. Falls back to the latest date overall if
         # the history doesn't span a full week yet.
         same_weekday = sales[sales["date"].dt.day_name() == order_day]
         as_of_date = same_weekday["date"].max() if not same_weekday.empty else sales["date"].max()
-
-    items = items_for_order_day(order_day)
-    if not items:
-        return pd.DataFrame()
+    else:
+        as_of_date = pd.Timestamp.today().normalize()
 
     receiving = load_log(receiving_csv, "received_qty")
     wastage = load_log(wastage_csv, "wastage_qty")
