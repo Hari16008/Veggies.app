@@ -40,7 +40,34 @@ import streamlit as st
 
 from item_config import ITEMS, ORDER_CALENDAR, order_days_available, order_type_for_day, items_for_order_day
 from forecast_engine import forecast_order, load_history
-from inventory_log import append_entries, read_log
+from inventory_log import append_entries as _csv_append_entries, read_log as _csv_read_log
+import sheets_log
+
+# Use Google Sheets for the receiving/wastage/sales logs when it's been
+# set up (see sheets_log.py's docstring for the one-time setup steps);
+# otherwise fall back to local CSV files. The local files work fine for
+# a quick local test run, but do NOT persist on Streamlit Community
+# Cloud - Sheets is what makes entries survive a reboot/redeploy.
+USE_SHEETS = sheets_log.is_configured()
+
+LOG_SHEET_NAMES = {
+    "receiving": "receiving_log",
+    "wastage": "wastage_log",
+    "sales": "sales_log",
+}
+
+
+def log_append(log_kind: str, qty_col: str, entry_date, entries: dict) -> int:
+    """log_kind is one of 'receiving' / 'wastage' / 'sales'."""
+    if USE_SHEETS:
+        return sheets_log.append_entries(LOG_SHEET_NAMES[log_kind], qty_col, entry_date, entries)
+    return _csv_append_entries(_LOCAL_LOG_CSV[log_kind], qty_col, entry_date, entries)
+
+
+def log_read(log_kind: str, qty_col: str) -> pd.DataFrame:
+    if USE_SHEETS:
+        return sheets_log.read_log(LOG_SHEET_NAMES[log_kind], qty_col)
+    return _csv_read_log(_LOCAL_LOG_CSV[log_kind], qty_col)
 
 # ---------------------------------------------------------------------
 # Page config - must be the first Streamlit call
@@ -82,6 +109,25 @@ RECEIVING_LOG_CSV = os.path.join(DATA_DIR, "receiving_log.csv")
 WASTAGE_LOG_CSV = os.path.join(DATA_DIR, "wastage_log.csv")
 SALES_LOG_CSV = os.path.join(DATA_DIR, "sales_log.csv")
 
+# In CSV-fallback mode these ARE the durable files. In Sheets mode, the
+# spreadsheet is the source of truth and these same paths are used only
+# as a disposable, always-rebuilt-this-run cache (see _materialize_logs
+# below) so forecast_engine.py can stay simple and just read CSV paths.
+_LOCAL_LOG_CSV = {"receiving": RECEIVING_LOG_CSV, "wastage": WASTAGE_LOG_CSV, "sales": SALES_LOG_CSV}
+_LOG_QTY_COL = {"receiving": "received_qty", "wastage": "wastage_qty", "sales": "qty_sold"}
+
+
+def _materialize_logs_for_forecast() -> None:
+    """When Sheets is the backend, pull the latest receiving/wastage/sales
+    rows down and write them to the local CSV paths forecast_engine.py
+    reads from. Cheap (Sheets reads are cached for 20s in sheets_log.py),
+    and safe to lose - it's rebuilt every run, never written back to."""
+    if not USE_SHEETS:
+        return
+    os.makedirs(DATA_DIR, exist_ok=True)
+    for kind, path in _LOCAL_LOG_CSV.items():
+        log_read(kind, _LOG_QTY_COL[kind]).to_csv(path, index=False)
+
 
 # ---------------------------------------------------------------------
 # Cached data access - avoids re-reading/recomputing on every rerun
@@ -103,6 +149,7 @@ def _forecast_order_fresh(
     # Not cached: receiving/wastage logs change every time someone logs an
     # entry, and cache keys on mtime would need every dependent file's mtime.
     # The forecast itself is cheap, so we just recompute on every rerun.
+    _materialize_logs_for_forecast()
     return forecast_order(
         order_day,
         history_csv=csv_path,
@@ -138,6 +185,16 @@ item_master = _load_item_master_cached(_safe_mtime(ITEM_MASTER_CSV))
 # ---------------------------------------------------------------------
 with st.sidebar:
     st.header("Order Settings")
+
+    if USE_SHEETS:
+        st.success("💾 Storage: Google Sheets (persists across reboots)", icon="✅")
+    else:
+        st.warning(
+            "💾 Storage: local CSV files - **not persistent** on Streamlit "
+            "Cloud, entries can be lost on reboot/redeploy. Set up Sheets "
+            "storage (see sheets_log.py) before relying on this daily.",
+            icon="⚠️",
+        )
 
     order_days = order_days_available()
     today_name = date.today().strftime("%A")
@@ -211,7 +268,7 @@ with tab_receive:
 
     if st.button("Save receiving log", type="primary"):
         entries = dict(zip(recv_edited["item"], recv_edited["received_qty"]))
-        n = append_entries(RECEIVING_LOG_CSV, "received_qty", recv_date, entries)
+        n = log_append("receiving", "received_qty", recv_date, entries)
         if n:
             st.success(f"Logged receiving for {n} item(s) on {recv_date.isoformat()}.")
             st.rerun()
@@ -219,7 +276,7 @@ with tab_receive:
             st.warning("Nothing entered above 0 - nothing was logged.")
 
     with st.expander("View receiving log"):
-        st.dataframe(read_log(RECEIVING_LOG_CSV, "received_qty"), hide_index=True, use_container_width=True)
+        st.dataframe(log_read("receiving", "received_qty"), hide_index=True, use_container_width=True)
 
 # ---- Log Wastage ----
 with tab_waste:
@@ -238,7 +295,7 @@ with tab_waste:
 
     if st.button("Save wastage log", type="primary"):
         entries = dict(zip(waste_edited["item"], waste_edited["wastage_qty"]))
-        n = append_entries(WASTAGE_LOG_CSV, "wastage_qty", waste_date, entries)
+        n = log_append("wastage", "wastage_qty", waste_date, entries)
         if n:
             st.success(f"Logged wastage for {n} item(s) on {waste_date.isoformat()}.")
             st.rerun()
@@ -246,7 +303,7 @@ with tab_waste:
             st.warning("Nothing entered above 0 - nothing was logged.")
 
     with st.expander("View wastage log"):
-        st.dataframe(read_log(WASTAGE_LOG_CSV, "wastage_qty"), hide_index=True, use_container_width=True)
+        st.dataframe(log_read("wastage", "wastage_qty"), hide_index=True, use_container_width=True)
 
 # ---- Log Sales ----
 with tab_sales:
@@ -269,7 +326,7 @@ with tab_sales:
 
     if st.button("Save sales log", type="primary"):
         entries = dict(zip(sales_edited["item"], sales_edited["qty_sold"]))
-        n = append_entries(SALES_LOG_CSV, "qty_sold", sales_date, entries)
+        n = log_append("sales", "qty_sold", sales_date, entries)
         if n:
             st.success(f"Logged sales for {n} item(s) on {sales_date.isoformat()}.")
             st.rerun()
@@ -277,7 +334,7 @@ with tab_sales:
             st.warning("Nothing entered above 0 - nothing was logged.")
 
     with st.expander("View logged sales"):
-        st.dataframe(read_log(SALES_LOG_CSV, "qty_sold"), hide_index=True, use_container_width=True)
+        st.dataframe(log_read("sales", "qty_sold"), hide_index=True, use_container_width=True)
 
 # ---- Suggested Order ----
 with tab_order:
@@ -364,6 +421,6 @@ with tab_history:
     st.subheader("Sales logged in-app")
     st.caption("Entered via the 🧾 Log Sales tab - this is combined with the history above when forecasting.")
     st.dataframe(
-        read_log(SALES_LOG_CSV, "qty_sold").sort_values("date", ascending=False),
+        log_read("sales", "qty_sold").sort_values("date", ascending=False),
         hide_index=True, use_container_width=True, height=300,
     )
